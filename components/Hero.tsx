@@ -1,11 +1,7 @@
-export default function Hero(){
-    return(
-            <section className="h-[80vh] w-full bg-red-500">
-
-
-
-
+export default function Hero() {
+  return (
+    <section className="hero-section">
+      Hello World
     </section>
-
-    );
+  );
 }

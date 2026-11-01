@@ -15,7 +15,7 @@ export default function Navbar() {
     }
     return (
 
-        <nav className="Nav-1st h-[100px] bg-white w-full flex justify-center items-center ">
+        <nav className="Nav-1st h-[100px] bg-white w-full flex justify-center justify- items-center ">
 
             <div className="  w-[1200px] flex justify-between items-center ">
 
@@ -36,9 +36,9 @@ export default function Navbar() {
 
                 </div>
 
-                <Navbtn />
+            
                 <div className="w-[100px] flex justify-start">
-
+<Navbtn />
                 <Menu className="text-black hidden max-[800px]:block" onClick={hamBurgar} />
                 </div>
 
